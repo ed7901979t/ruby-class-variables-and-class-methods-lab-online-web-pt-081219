@@ -23,4 +23,6 @@ class Album
   def self.artists
     @@artists.uniq
   end
+  
+  @@genres = []
 end
